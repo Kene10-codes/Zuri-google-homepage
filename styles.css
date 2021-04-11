@@ -47,6 +47,18 @@ main input {
     border-radius: 35px;
     border: 1px solid gray;
     outline: none;
+    box-shadow: -3px 0px 48px -10px rgba(199,190,190,0.75);
+    -webkit-box-shadow: -3px 0px 48px -10px rgba(199,190,190,0.75);
+    -moz-box-shadow: -3px 0px 48px -10px rgba(199,190,190,0.75);
+    
+}
+
+main input::placeholder {
+    font-size: 1.2rem;
+}
+
+main input:focus {
+ border-color: gray;
 }
 
 main .search-icon {
@@ -89,7 +101,7 @@ footer .footer-bottom {
     padding: 1em;
     display: flex;
     justify-content: space-between;
-     border-top: 1px solid gray;
+    border-top: 1px solid gray;
 }
 
 .footer-bottom .left a,
