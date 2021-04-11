@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    width: 20%;
+    padding: 2em;
+    height: 14vh;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav img {
+    height: 20px;
+}
+
+nav img + img{
+    border-radius: 50%;
+    height: 25px !important;
+}
+
+main {
+    width: 50%;
+    margin: auto ;
+    text-align: center;
+    height: 65vh;
+}
+
+main .search-container {
+    position: relative;
+}
+
+main input {
+    width: 80%;
+    padding: 1em 1em 1em 3.2em;
+    border-radius: 35px;
+    border: 1px solid gray;
+    outline: none;
+}
+
+main .search-icon {
+    position: absolute;
+    top: 30%;
+    left: 12%;
+    width: 15px;
+}
+
+main .microphone-icon {
+    position: absolute;
+    top: 30%;
+    right: 14%;
+    width: 15px;
+}
+
+main .main-btn {
+   margin-top: 1em;
+}
+
+.main-btn button {
+    padding: 1em;
+    border: none;
+}
+
+.main-btn button:hover {
+    border: none;
+
+}
+
+footer {
+    background-color: rgb(240, 236, 236);
+}
+
+footer .footer-top {
+    padding: 1em;
+}
+
+footer .footer-bottom {
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+     border-top: 1px solid gray;
+}
+
+.footer-bottom .left a,
+.footer-bottom .right a{
+    margin-right: 1em;
+} 
